@@ -2,7 +2,15 @@
 
 // Colors
 
-$primary: #25274D !default;
-$secondary: #464866 !default;
-$light: #AAABB8 !default;
-$accent: #2E9CCA !default;
+$bg: #282835;
+$bg-light: lighten($bg, 10%);
+
+$text: #FFFFFF;
+$faded: #AAABB8;
+
+:root {
+  --bg: #{$bg};
+  --bg-light: #{$bg-light};
+  --text: #{$text};
+  --faded: #{$faded};
+}

@@ -1,0 +1,42 @@
+@import '../theme';
+
+.profile {
+  &__name {
+    @extend h2;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 260px;
+    width: 100%;
+  }
+
+  &__bubble {
+    color: var(--faded);
+    display: block;
+    position: relative;
+    // border-radius: 10px;
+    background-color: var(--bg-light);
+    padding: 12px;
+    max-width: 400px;
+    margin: 30px auto 0;
+    font-size: 1.1rem;
+    text-align: center;
+
+    &:before {
+      z-index: -1; // So that it appear behind the bubble
+      content: '';
+      position: absolute;
+      background-color: var(--bg-light);
+      width: 25px;
+      height: 25px;
+      top: -10px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+    }
+  }
+}

@@ -1,14 +1,14 @@
-import { Fragment, h, render } from 'preact';
-import { Header, Main, Footer } from './components'
+import { Fragment, h } from 'preact';
+import { Header, Profile, Projects, Footer } from './sections'
 import './style.scss';
-
 
 const App = () => {
   return (
     <Fragment>
-      <Header />
-      <Main />
-      <Footer />
+      <main>
+        <Profile />
+        <Projects />
+      </main>
     </Fragment>
   );
 }

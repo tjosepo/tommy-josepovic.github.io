@@ -1,9 +1,5 @@
-import Footer from './footer';
-import Header from './header';
-import Main from './main';
+import Card from './card';
 
 export {
-  Footer,
-  Header,
-  Main
+  Card
 }

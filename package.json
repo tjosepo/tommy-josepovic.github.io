@@ -1,11 +1,12 @@
 {
   "private": true,
-  "name": "type-example",
+  "name": "tommy-dev",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "build": "preact build",
-    "dev": "preact watch"
+    "dev": "preact watch",
+    "start": "preact watch"
   },
   "eslintIgnore": [
     "build/*"

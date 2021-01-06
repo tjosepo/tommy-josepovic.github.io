@@ -21,7 +21,7 @@ const Projects = () => {
 
         <Card
           title="ror2-editor"
-          description="A web app that to customize Risk of Rain 2 savefiles."
+          description="A web app to customize Risk of Rain 2 savefiles."
           href="https://riskofrain2-save-editor.web.app/"
           src="/assets/ror2-editor.jpg" />
 
